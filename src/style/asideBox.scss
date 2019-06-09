@@ -1,1 +1,199 @@
+/*variables*/
+@import './mixin.scss';
+ $mainFontcolor:#fff; 
+
+
+
+  .line{
+  margin:0px auto;
+  background-color: #fff;
+  width: 80%;
+  height: 1px;
+  
+}
+.mdl-grid {
+ padding: 0px !important;
+}
+/*Main Box*/
+.asideBoxes{
+-webkit-transition: all .5s ease-in-out;
+-moz-transition: all .5s ease-in-out;
+-o-transition: all .5s ease-in-out;
+transition: all .5s ease-in-out;
+overflow:  !important;
+/*Box1*/
+.asideBox1{
+  width: 330px;
+  height: 645px;
+  object-fit: contain;
+  background-image: linear-gradient(to bottom, #ff4b00, #f9702a);
+  margin-bottom: 7px;
+  overflow: hidden;
+  border-radius: 5px;
+  .cambox-header{
+    width: 100%;
+    border-bottom: 1px solid $mainFontcolor;
+    display: flex;
+    flex-direction: row;
+    justify-content: middle;
+    text-align: center;
+    .h2di{
+      width: 75%;
+      h2{
+        @include fontFormat(Muli,25px,bold,0.84,left);
+        color:$mainFontcolor;
+        padding-top: 10px;
+        padding-left: 29px;
+        
+        }
+    }
+    .detail-icon{
+      width: 25%;
+      padding: 31px 24px;
+    }
+  
+}
+  .cambox-content{
+   width: 100%;
+   .main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+     .para{
+      width: 75%;
+      margin-left: 7px;
+      p{
+        @include fontFormat(Muli,14px,300,1.64,left);
+        color: $mainFontcolor;
+        }
+      h5{
+        @include fontFormat(Muli,17px,bold,0.82,left);
+          color: $mainFontcolor;
+      }
+      
+      }
+
+    .man-img{
+      width: 76px;
+      height: 76px;
+      border-radius: 10px;
+      background-color:$mainFontcolor;
+      width: 25%;
+      margin-top: 12px;
+      margin-left: 24px;
+      
+    }
+  }
+  .cambox-info{
+    margin:16px 34px 16px 26px;
+    width: 100%;
+    p{
+      @include fontFormat(Dosis,18px,500,1.22,center);
+      width: 270px;
+      height: 115px;
+      color: $mainFontcolor;
+      text-align: justify;
+      
+    }
+  }
+  
+}
+ .product{
+  width: 100%;
+  margin-bottom: 10px;
+  h5{
+    @include fontFormat(Muli,18px,bold,27px,left);
+    color: $mainFontcolor;
+    margin-top:12.3px;
+    padding-left: 30px;   
+}
+ ul{
+    margin-bottom: 7px;
+    padding: auto 0px;
+    list-style: none;
+  li{
+    @include fontFormat(Muli,18px,200,1.5,left);
+    color: $mainFontcolor;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    span{
+      @include fontFormat(Muli,18px,bold,1.5,left);
+      color: $mainFontcolor;
+      padding-left: 5px;
+    
+    }
+  }
+}
+.prod-btn{
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  .model-btn{
+    @include fontFormat(Muli,14px,bold,1.93x,center);
+
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    color: #ff4b00;
+    border: none;
+    cursor: pointer;
+  }
+}
+}}
+/*Box2*/
+.asideBox2{
+  padding-left: 26px;
+  width: 330px;
+  height: 320.5px;
+  object-fit: contain;
+  background-image: linear-gradient(to bottom, #f9702a, #ff4b00);
+  .total-table {
+    .table{
+      width: 100%;
+      td{
+        text-align: justify;
+      }
+      h5{
+        @include fontFormat(Muli,18px,bold,1.28,left);
+        color: $mainFontcolor;
+        padding-top: 20.5px;
+        margin: 0 auto;
+      }
+      hr{
+        margin: 5px 34px 5px 26px;
+        width: 100%;
+      }
+      td{
+        @include fontFormat(Muli,18px,0,0.78,left);
+        color: $mainFontcolor;
+        img{
+            width: 33px;
+            height: 33px;
+            object-fit: contain;
+            margin-right: 10px;
+          
+        }
+      }
+       
+    }
+
+  }
+  p{
+    @include fontFormat(Muli,18px,200,1.5,left);
+    color:$mainFontcolor;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin-bottom: 38px;
+
+
+  }
+}
+}
+ 
+
+ 
+
+
+
 
