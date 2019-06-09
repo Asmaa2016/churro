@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="instagram" width="23.723" height="23.723" viewBox="0 0 23.723 23.723">
+    <defs>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+        <linearGradient id="linear-gradient" x1=".859" x2=".227" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#951cb6"/>
+            <stop offset=".543" stop-color="#e94571"/>
+            <stop offset="1" stop-color="#fadf01"/>
+        </linearGradient>
+    </defs>
+    <path id="Path_299" d="M11.861 0a11.861 11.861 0 1 0 11.862 11.861A11.861 11.861 0 0 0 11.861 0zm0 22.932a11.071 11.071 0 1 1 11.071-11.071 11.071 11.071 0 0 1-11.071 11.071zm0 0" class="cls-1" data-name="Path 299"/>
+    <path id="Path_300" d="M108.257 96h-10.28A1.979 1.979 0 0 0 96 97.977v10.28a1.979 1.979 0 0 0 1.977 1.977h10.28a1.979 1.979 0 0 0 1.977-1.977v-10.28A1.979 1.979 0 0 0 108.257 96zm1.186 12.257a1.186 1.186 0 0 1-1.186 1.186h-10.28a1.186 1.186 0 0 1-1.186-1.186v-10.28a1.186 1.186 0 0 1 1.186-1.186h10.28a1.186 1.186 0 0 1 1.186 1.186zm0 0" class="cls-1" data-name="Path 300" transform="translate(-91.255 -91.255)"/>
+    <path id="Path_301" d="M163.954 160a3.954 3.954 0 1 0 3.954 3.954 3.954 3.954 0 0 0-3.954-3.954zm0 7.117a3.163 3.163 0 1 1 3.163-3.163 3.163 3.163 0 0 1-3.163 3.163zm0 0" class="cls-1" data-name="Path 301" transform="translate(-152.092 -152.092)"/>
+    <path id="Path_302" d="M305.186 128a1.186 1.186 0 1 0 1.186 1.186 1.186 1.186 0 0 0-1.186-1.186zm0 1.582a.4.4 0 1 1 .4-.4.4.4 0 0 1-.4.4zm0 0" class="cls-1" data-name="Path 302" transform="translate(-288.976 -121.674)"/>
+</svg>

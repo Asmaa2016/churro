@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.091" height="24.813" viewBox="0 0 21.091 24.813">
+    <defs>
+        <style>
+            .cls-1{fill:#777}
+        </style>
+    </defs>
+    <g id="notifications-button" transform="translate(-38.25)">
+        <g id="notifications" transform="translate(38.25)">
+            <path id="Path_307" d="M48.8 24.813a2.489 2.489 0 0 0 2.481-2.481h-4.967a2.489 2.489 0 0 0 2.486 2.481zm8.064-7.444v-6.824a7.983 7.983 0 0 0-6.2-7.816v-.868a1.861 1.861 0 1 0-3.722 0v.868a7.983 7.983 0 0 0-6.2 7.816v6.824L38.25 19.85v1.241h21.091V19.85z" class="cls-1" data-name="Path 307" transform="translate(-38.25)"/>
+        </g>
+    </g>
+</svg>

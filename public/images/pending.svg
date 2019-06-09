@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="pending" transform="translate(-762 -120)">
+        <g id="pause" transform="translate(762.481 120.481)">
+            <path id="Path_662" d="M12.019 0a12.019 12.019 0 1 0 12.019 12.019A12.019 12.019 0 0 0 12.019 0zm0 23.237a11.218 11.218 0 1 1 11.218-11.218 11.218 11.218 0 0 1-11.218 11.218zm0 0" class="cls-1" data-name="Path 662"/>
+        </g>
+        <g id="pause-2" data-name="pause" transform="translate(762 120)">
+            <path id="Path_662-2" d="M12.5 0A12.5 12.5 0 1 0 25 12.5 12.5 12.5 0 0 0 12.5 0zm0 24.167A11.667 11.667 0 1 1 24.167 12.5 11.667 11.667 0 0 1 12.5 24.167zm0 0" class="cls-1" data-name="Path 662"/>
+        </g>
+        <g id="Group_431" data-name="Group 431" transform="translate(772.577 128.173)">
+            <path id="Line_101" d="M0 0v9.135" class="cls-2" data-name="Line 101" transform="translate(3.846)"/>
+            <path id="Line_102" d="M0 0v9.135" class="cls-2" data-name="Line 102"/>
+        </g>
+    </g>
+</svg>
