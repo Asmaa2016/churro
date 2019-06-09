@@ -1,0 +1,150 @@
+
+@import './header.scss';
+@import './asideBox.scss';
+@import './slide-card.scss';
+@import './fixedcards.scss';
+@import './carousel.scss';
+@import './responsive.scss';
+@import './normalize.scss';
+@import './mixin.scss';
+
+/*Extends Classes*/
+%box-statues{
+  margin:0px 624px;
+  width: 296px;
+  height: 45px;
+  position: relative;
+  border-radius: 0px 0px 12px 12px;
+  %content{
+    @include fontFormat(Muli,18px,bold,0.78,center);
+    letter-spacing: 1px;
+    color: #fff;
+    position: absolute;
+    top:12.5px;
+    right: 112px;
+    bottom: 10px;
+    left: 109px ;
+
+  }
+  img{
+    position: absolute;
+    left:10px;
+    top:11.5px;
+    bottom: 9px;
+    right:0px;
+  }
+}
+/*Header*/
+
+.material-icons{
+  color: #ff4b00;
+}
+
+/*main container of campaign tab content*/
+.main-container1{
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  background-color: #f3f3f3;
+  overflow:auto;
+  padding-left: 30px;
+  padding-top: 14px;
+    .asidecontainer{
+      width:330px;
+      overflow:hidden;
+      
+    }
+    .content-container{
+      width: 1544px;
+      overflow-y: hidden;
+      margin-right: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+
+      .fixed-cards{
+        padding: 61px 77px 14px 75px;
+        
+        .col{
+          margin-right: 38.7px;
+        }
+        
+      }
+      .carsoul-cards{
+        margin-left: 48.7px;
+      }
+
+    }
+    .row{
+      display: flex; 
+      justify-content:space-between;
+      flex-wrap: row nowrap;
+      }
+      .pending-box{
+       @extend %box-statues;
+       background-color: #777777;
+        
+        .content{
+     @extend %content;
+     
+        }
+        img{
+      @extend img;
+        }
+      
+    
+    }
+    .complete-box{
+      @extend %box-statues;
+      background-color: #ff4b00;
+      border-radius: 0px 0px 12px 12px;
+      .content {
+      @extend %content;
+      }
+      img{
+        @extend img;
+    }}
+}
+/*main container of creators tab content*/
+.main-container2{
+ @extend .main-container1;
+ overflow-x:auto;
+  .content-container{
+    width: 1544px;
+    overflow-x:auto;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  
+  .fixed-cards{
+    padding: 61px 77px 14px 75px;
+   }
+    .carsoul-cards{
+      margin-left: 48.7px;
+    }
+  .row{
+    display: flex; /* or inline-flex */
+    justify-content:space-between;
+    flex-wrap: row nowrap;
+    }
+      
+     }
+       }
+/*Tabs*/
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
+  @include  fontFormat(Muli,18px,bold,1.28,left);
+    color: #ff4b00 !important;
+    text-transform: lowercase;
+    display: relative;
+    justify-content: middle;
+  
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  height: 4px !important;
+  width: 100% !important;
+  display: block;
+  content: " ";
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  background: #ff4b00 !important;
+}

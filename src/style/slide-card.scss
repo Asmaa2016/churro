@@ -1,0 +1,86 @@
+@import './mixin.scss';
+.card{
+    width: 247.3px;
+    height: 225.2px;
+    border-radius: 15px ;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    padding-left: 21.3px;
+    padding-top: 16px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    margin-right: 38.7px;
+    
+    /*Card-Header*/
+    .card-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: middle;
+        
+        .header-img{
+          width: 25%;
+          margin-right: 10px;
+          
+        img{
+            width: 70px !important;
+            height: 70px !important;
+            object-fit: contain;
+            
+        }}
+        .header-info{
+            width: 75%;
+            padding-left: 20px;
+            text-align: left;
+            
+        h6{
+            @include fontFormat(Muli,15px,bold,1.33,left);
+            color: #222222; 
+            margin-top: 16px;
+            margin-bottom: 0px;
+          
+    }
+       .lead{ 
+        @include fontFormat(Muli,12px,100,1.67,left);   
+        color: #777777;
+      
+}
+        .checked{
+            width: 12px;
+            padding-right: 8px;
+            height: 12.3px;
+            color: #f39c12;
+            padding-right: 18px;
+        }
+      }
+    }
+          
+    /*Card-Body*/
+    .card-body{
+        width: 210px;
+        height: 76px;
+        padding-bottom:10px;
+    
+    p{
+        @include fontFormat(Muli,14px,100,1.36,left);
+        color: #777777;
+    }}
+    /*Card-Footer*/
+    .card-footer{
+        padding-bottom: 16px;
+        text-align:left;
+        
+        img{
+            
+            margin-right: 10px;
+        }
+        i{
+            width: 18px;
+            height: 17.7px;
+            color: #f49311;
+            padding-left: 35px;            
+        }
+    }
+
+}

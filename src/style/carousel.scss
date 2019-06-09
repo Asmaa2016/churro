@@ -1,0 +1,35 @@
+.carousel-container{
+    display: flex;
+    width: 1544px;
+    position: relative;
+    padding-left: 48.3px;
+    .carousel-viewport{
+        position: relative;
+        padding-top: 70.1px;
+        padding-bottom: 30.3px;
+        white-space: nowrap;
+        overflow:hidden;
+    }
+    .carousel-nav{
+        cursor: pointer;
+        transition: opacity .2s ease-in-out;
+        z-index: 3;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        border: none;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            i{
+                color:  #ff4b00;
+                font-size: 15px;
+            }
+
+    }
+    .carousel-nav:hover{
+        background-color: #ff4b00;
+        i{
+           color: #fff;
+        }
+    }
+    }

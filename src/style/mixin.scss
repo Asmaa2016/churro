@@ -1,0 +1,13 @@
+/*Mixin*/
+@mixin fontFormat($family,$size,$weight,$lineHei,$align) {
+    font-family: $family;
+    font-size: $size;
+    font-weight:$weight;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: $lineHei;
+    letter-spacing: normal;
+    text-align: $align;
+    color:$mainFontcolor;
+
+}

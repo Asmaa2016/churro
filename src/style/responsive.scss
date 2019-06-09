@@ -1,0 +1,66 @@
+@media all and (max-width: 1239px) {
+  /*toggle button*/
+  .mdl-layout__header .mdl-layout__drawer-button {
+      display: none;
+  }
+}
+
+/*Mobile Media*/
+@media  (max-width: 560px) {
+
+  /*Toggle button*/
+  .mdl-layout__header .mdl-layout__drawer-button {
+    display: block;
+  }
+/*main page*/
+.main-container1{
+  display: flex;
+ 
+  .asidecontainer{
+      width:50%;
+      overflow:hidden;
+    
+  }
+  .content-container{
+    width: 50%;
+    overflow-y: hidden;
+      .col{
+        margin-bottom: 38.7px;
+      }
+  }
+    
+    .row{
+      display: flex; 
+      justify-content:space-between;
+      flex-direction: column;
+      }
+      .pending-box{
+        margin: 0px auto;
+        
+     
+     }
+     .complete-box{
+      margin: 0px auto;
+       
+    }
+      
+}
+  
+  .main-container2{
+    overflow: hidden;
+    .content-container{
+        width: 100%;
+        overflow-y: hidden;
+        margin-right: 20px;
+      }}
+
+
+/*carsoul*/
+      .carousel-container{
+        display: flex;
+        width: 400px;
+        
+ 
+    }
+  
+  }

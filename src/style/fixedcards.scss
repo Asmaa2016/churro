@@ -1,0 +1,132 @@
+@import './mixin.scss';
+
+.Fixedcard {
+    width: 247.3px;
+    height: 255.7px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    padding-left: 21.3px;
+    padding-top: 16px;
+     /*Card-Header*/
+    .card-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+        .header-img{
+          width: 25%;
+          float: left;
+          margin-right: 10px;
+          
+        img{
+            width: 70px !important;
+            height: 70px !important;
+            object-fit: contain;
+            
+        }}
+        .header-info{
+            width: 75%;
+            padding-left: 20px;
+            text-align: left;
+            float: left;
+            
+            
+        h6{
+            @include fontFormat(Muli,15px,bold,1.33,left);
+            color: #222222; 
+            margin-top: 16px;
+            margin-bottom: 0px;
+          
+    }
+       .lead{   
+        @include fontFormat(Muli,12px,bold,1.67,left);
+        color: #777777;
+      
+}
+        .checked{
+            width: 12px;
+            padding-right: 8px;
+            height: 12.3px;
+            color: #f39c12;
+            padding-right: 18px;
+        }
+      }
+    }
+    /*Card-Body*/ 
+    .card-body{
+        width: 210px;
+        height: 76px;
+        padding-bottom:10px; 
+
+    
+    p{
+        @include fontFormat(Muli,14px,100,1.36,left);
+        color: #777777;
+}}
+    /*Card-Footer*/
+    .card-footer{
+        padding-bottom: 16px;
+        text-align:left;
+        
+        img{
+            
+            margin-right: 10px;
+            padding-bottom: 10px;
+        }
+        i{
+            padding: 5px;
+            border:1px solid #777777;
+            border-radius: 50%;
+            margin-right: 10px;
+            text-align: center;
+        }
+        .rejectbtn{
+            @include fontFormat(Muli,14px,100,1.36,center);
+            border: none;
+            width: 85px;
+            height: 33px;
+            border-radius: 10px;
+            background-color: #efefef;
+            color: #777777;
+            margin-bottom: 11.7px;
+            margin-top: 12.3px;
+            position: relative;
+            padding-right:10px; 
+               .fa-remove:before {
+                content: '\00d7';
+
+               }
+               .fa-remove{
+                   border:none;
+                   color: #707070;
+                   font-size: 28px;
+                   font-weight: bold;
+                   position: absolute;
+                   bottom: 5px;
+                   top:1px;
+                   
+        
+               }
+
+        }
+        .acceptbtn{
+            @include fontFormat(Muli,14px,100,1.36,center);
+            color: #fff;
+            width: 85px;
+            height: 33px;
+            border-radius: 10px;
+            background-color: #4bbc5a;
+            border: none;
+            margin-left: 39px;
+            padding-left: 5px;
+            .fa-check{
+                border: none;
+                text-align: right;
+            }
+        }
+    }
+
+}
+
+  
